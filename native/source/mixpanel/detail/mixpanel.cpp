@@ -265,7 +265,6 @@ namespace mixpanel
             Value data;
             data["alias"] = alias;
             track("$create_alias", data);
-            identify(alias);
         }
         else
         {
